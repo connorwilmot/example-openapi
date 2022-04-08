@@ -1,0 +1,29 @@
+openapi: 3.0.3
+info:
+  title: Cool Api
+  description: Cool Api
+  version: "1"
+paths:
+  "/bob":
+    post:
+      summary: "Bob saget is in Full House!"
+      operationId: bob
+      tags:
+        - bob
+      parameters:
+      requestBody:
+        required: false
+        content:
+      responses:
+
+  "/fred":
+    put:
+      summary: "fred is a person"
+      operationId: fred
+      tags:
+        - fred
+      parameters:
+      responses:
+
+components:
+  parameters:
